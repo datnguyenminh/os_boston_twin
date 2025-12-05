@@ -1,3 +1,44 @@
+# ==== Python ====
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+env/
+venv/
+.venv/
+
+# ==== MATLAB ====
+*.mat
+*.fig
+*.mex*
+*.slxc
+*.asv
+
+# ==== Jupyter ====
+*.ipynb
+.ipynb_checkpoints/
+
+# ==== Model / Results / Simulation Output ====
+results/
+output/
+logs/
+models/
+checkpoints/
+runs/
+*.csv
+*.npy
+*.h5
+*.onnx
+*.ply
+
+# ==== Build / Temp / Cache ====
+.DS_Store
+*.zip
+*.tar.gz
+*.log
+
+
+
 *.ipynb
 *.mat
 *.zip
